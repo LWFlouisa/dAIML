@@ -1,5 +1,22 @@
 # pseudocode for a smart searcher.
 
+# Group specific searches
+## def aGroup_1; do aGroup_1 search; end
+## def aGroup_2; do aGroup_2 search; end
+## def aGroup_3; do aGroup_3 search; end
+## def aGroup_4; do aGroup_4 search; end
+
+## def gGroup_1; do gGroup_1 search; end
+## def gGroup_2; do gGroup_2 search; end
+
+## def pSearch_Mil;   do pGroup_1 search; end
+## def pSearch_query; do pGroup_2 search; end
+
+## def iGroup_1; do iGroup_1 search; end
+## def iGroup_2; do iGroup_2 search; end
+## def iGroup_3; do iGroup_3 search; end
+## def iGroup_4; do iGroup_4 search; end
+
 # def age
 #   evaluate age
 #     when age is    6..8; aGroup_1
