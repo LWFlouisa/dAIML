@@ -1,0 +1,30 @@
+# def age
+#   evaluate age
+#     when age is 6..8
+#     when age is 9..12
+#     when age is 13..17
+#     when age is 18..30
+#     when age is 31..64
+#     when age is 64..120
+
+# def gender
+#   evaluate gender
+#     if gender is female
+#     if gender is male
+
+# def profession
+#   evaluate profession
+#     if profession is military
+#     else
+#        ask for further info
+
+# def income
+#   evaluate income
+#     when income is 0..12000
+#     when income is 12001..24000
+#     when income is 24001..12000
+#     when income is 120001..240000
+#     else
+#       comment that their income level is not understood.
+
+# process AIML chatbot
