@@ -1,30 +1,33 @@
+# pseudocode for a smart searcher.
+
 # def age
 #   evaluate age
-#     when age is 6..8
-#     when age is 9..12
-#     when age is 13..17
-#     when age is 18..30
-#     when age is 31..64
-#     when age is 64..120
+#     when age is    6..8; aGroup_1
+#     when age is   9..12; aGroup_2 
+#     when age is  13..17; aGroup_3
+#     when age is  18..30; aGroup_4
+#     when age is  31..64; aGroup_5
+#     when age is 64..120; aGroup_6
 
 # def gender
 #   evaluate gender
-#     if gender is female
-#     if gender is male
+#     if gender is female; gGroup_1
+#     if gender is   male; gGroup_2
 
 # def profession
 #   evaluate profession
 #     if profession is military
+#       pSearch_Mil
 #     else
-#        ask for further info
+#       pSearch_query
 
 # def income
 #   evaluate income
-#     when income is 0..12000
-#     when income is 12001..24000
-#     when income is 24001..12000
-#     when income is 120001..240000
+#     when income is       0..12000; iGroup_1
+#     when income is   12001..24000; iGroup_2
+#     when income is   24001..12000; iGroup_3
+#     when income is 120001..240000; iGroup_4
 #     else
 #       comment that their income level is not understood.
 
-# process AIML chatbot
+# use naive bayes to decide age, gender, profession, or income.
